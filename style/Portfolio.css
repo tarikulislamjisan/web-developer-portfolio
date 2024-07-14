@@ -1,0 +1,271 @@
+
+.work-sans-normal{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:800px;
+    font-style: normal;
+    font-size: 25px;
+}
+
+*{
+    /* background-color:rgb(5, 150, 150); */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.one{
+    color: #FD6E0A;
+}
+li{
+    list-style-type: none;
+    margin-right: 50px;
+    
+  
+}
+a{
+    text-decoration: none;
+   color: #474747;;
+    
+}
+a:hover{
+    background-color:rgb(189, 176, 176);
+    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+.btn-number-one{
+   
+        width: 150px;
+        height: 50px;
+        background-color:#FD6E0A ;
+        color: white;
+        border-radius: 5px;
+}
+.btn-number-two{
+
+    width: 150px;
+    height: 50px;
+    background-color:#FD6E0A ;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner-content{
+    /* display: flex; */
+    max-width: 580px;
+    margin: 70px 297px 184px 230px;
+    
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight:600;
+    color: #474747;
+    
+}
+.banner-heading{
+    font-size: 85px;
+}
+.banner-description{
+font-size: 18px;
+color: #757575;
+margin-bottom: 30px;
+}
+.banner-profile{
+    width: 580px;
+    margin-right: 40px;
+}
+.number-one{
+     width: 200px;
+}
+.number-two{
+    width: 170px;
+}
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    margin: 38px 27px 25px 30px;
+   background-position:top left, bottom right;
+   background-color:#FFF8F3;
+}
+/* About Division */
+.about-header{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.about-designer{
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    
+    background-color: #FFF8F3;
+    padding: 130px 158px;
+    margin-top: 45px;
+    text-align: center;
+    
+    
+ 
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+    margin-bottom: 130px;
+}
+.division{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.semi{
+    font-weight: 600;
+    color: #757575;
+}
+.dark{
+    color: #181818;
+    font-weight: bold;
+}
+/* what division */
+.light{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+
+.what{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.dady{
+    margin-top: 49px;
+}
+.skill{
+    display: flex;
+    gap: 20px;
+
+}
+.grey{
+color: #757575;
+}
+
+ .skilled{
+   padding: 24px;
+   border-radius: 5px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+ }
+   
+
+/* Resume Context */
+.resume-title{
+    font-size: 35px;
+    text-align: center;
+    }
+
+    .resume-container{
+        display: flex;
+    }
+    .btn-number-three {
+        
+        width: 150px;
+        height: 50px;
+        background-color:#FD6E0A ;
+        color: white;
+        border-radius: 5px;
+        margin: 0 auto;
+       
+
+     
+    }
+    .btn-parents{
+        justify-content: center;
+        display: flex;
+    }
+   .resume hr{
+    margin: 30px;
+   }
+   .resume-title{
+    text-align: center;
+    margin-bottom: 80px;
+
+   }
+   .resume-header-one{
+    font-size: 30px;
+    color: #474747;
+   }
+   .degree{
+    color: #474747;
+    font-size: 25px;
+   }
+   .uni{
+    color: #757575;
+    font-size: 20px;
+   }
+   .description{
+    color:#757575;
+   }
+   .job-title{
+    color: #474747;
+   }
+   .company{
+    color: #757575;
+   }
+
+/* contact division */
+.contact-container{
+    background-color: #FFF8F3;
+}
+.contact-head{
+    font-size: 35px;
+}
+.contact-schedule{
+    font-size:16px;
+  
+}
+.btn-number-four{
+    width: 150px;
+    height: 50px;
+    background-color:#FD6E0A ;
+    color: white;
+    border-radius: 5px;
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-head{
+    margin-top: 80px;
+    
+}
+.contact-title{
+    display: flex;
+    justify-content: center;
+}
+.footer-head-one{
+    margin-right: 130px;
+    margin-left: 0px;
+}
+footer input[type="text"] , footer textarea {
+    width: 461px;
+    height: 60px;
+    border: none;
+}
+
+
+
